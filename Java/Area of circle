@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class AreaofCircle {
+    public AreaofCircle() {
+    }
+
+    public static void main(String[] args) {
+        float a = 0.0F;
+        float p = 3.141592F;
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter radius: ");
+        float r = in.nextFloat();
+        if (r > 0.0F) {
+            a = p * r * r;
+        }
+
+        System.out.println(a);
+    }
+}
