@@ -1,0 +1,18 @@
+Q: Finding if a number is even or odd program.
+
+import java.util.Scanner;
+
+public class Evenodd {
+    public Evenodd() {
+    }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Please type in an integer: ");
+        long value = input.nextLong();
+        if (value % 2L == 0L) {
+            System.out.println("It's an even number.");
+        } else {
+            System.out.println("It's an odd number.");
+        }
+    }
+}
