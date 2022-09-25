@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class ProductandSum {
+    public ProductandSum() {
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter an integer: ");
+        int val = in.nextInt();
+        int sum = 0;
+        int product = 1;
+
+        int rem;
+        for(int ans = false; val > 0; sum += rem) {
+            rem = val % 10;
+            val /= 10;
+            product *= rem;
+        }
+
+        System.out.println(product - sum);
+    }
+}
