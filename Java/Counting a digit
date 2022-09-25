@@ -1,0 +1,20 @@
+COUNTING NUMBER 5
+
+public class Count {
+    public Count() {
+    }
+
+    public static void main(String[] args) {
+        int n = 455355;
+
+        int count;
+        for(count = 0; n > 0; n /= 10) {
+            int rem = n % 10;
+            if (rem == 5) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
