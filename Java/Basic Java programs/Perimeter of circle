@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class PerimeterofCircle {
+    public PerimeterofCircle() {
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        float peri = 0.0F;
+        float pie = 3.14F;
+        System.out.print("Enter radius: ");
+        float r = in.nextFloat();
+        System.out.println(2.0F * pie * r);
+    }
+}
