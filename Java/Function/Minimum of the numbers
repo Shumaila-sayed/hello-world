@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Minimum {
+    public static void main(String[] args) {   
+        min();
+    }
+
+     static void min() {
+         Scanner in = new Scanner(System.in);
+         System.out.println("Enter three numbers");
+         int num = in.nextInt();
+         int num2 = in.nextInt();
+         int num3 = in.nextInt();
+
+         int max = num;
+         if (num2 < max) {
+             max = num2;
+         }
+         if (num3 < max) {
+             max = num3;
+         }
+         int ans = max;
+         System.out.println(ans);
+    }
+}
