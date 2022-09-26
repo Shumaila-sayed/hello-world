@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Marks {
+    public static void main(String[] args) {
+        grade();
+    }
+   static void grade() {
+       Scanner in = new Scanner(System.in);
+       System.out.print("Enter your marks (out of 100): ");
+       int m = in.nextInt();
+       if(m>= 91 && m <= 100) {
+           System.out.println("You have got AA grade.");
+       }
+       if(m>= 81 && m <= 90) {
+           System.out.println("You have got AB grade.");
+       }
+       if(m>= 71 && m <= 80) {
+           System.out.println("You have got BB grade.");
+       }
+       if(m>= 61 && m <= 70) {
+           System.out.println("You have got BC grade.");
+       }
+       if(m>= 51 && m <= 60) {
+           System.out.println("You have got CD grade.");
+       }
+       if(m>= 41 && m <= 50) {
+           System.out.println("You have got DD grade.");
+       }
+       if(m <= 40) {
+           System.out.println("You have failed.");
+       }
+    }
+}
