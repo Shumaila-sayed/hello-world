@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Circle {
+    public static void main(String[] args) {
+        circle();
+    }
+     static void circle() {
+         Scanner in = new Scanner(System.in);
+         System.out.print("Enter radius: ");
+         float radius = in.nextFloat();
+         float pie = 3.14f;
+         float area = pie*radius*radius;
+         float circum = 2*pie*radius;
+         System.out.println("Area and circumference of this circle is " + area + " and " + circum + " respectively");
+    }
+}
