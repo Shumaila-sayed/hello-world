@@ -14,10 +14,8 @@ public class SearchIn2D {
 
         System.out.println(max(arr));
         System.out.println(Integer.MAX_VALUE);
-
         System.out.println(Integer.MIN_VALUE);
     }
-
      static int[] search(int[][] arr, int target) {
          for (int row = 0; row < arr.length; row++) {
              for (int col = 0; col < arr[row].length; col++) {
@@ -27,9 +25,7 @@ public class SearchIn2D {
              }
          }
          return new int[] {-1,-1};
-
     }
-
     static int max(int[][] arr) {
         int max = Integer.MIN_VALUE;
         for (int[] ints : arr) {

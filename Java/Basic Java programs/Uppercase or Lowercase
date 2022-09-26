@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class CaseCheck {
-    public CaseCheck() {
-    }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -12,6 +10,5 @@ public class CaseCheck {
         } else {
             System.out.println("Uppercase");
         }
-
     }
 }

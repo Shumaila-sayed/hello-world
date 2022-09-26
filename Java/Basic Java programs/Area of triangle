@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class AreaofTriangle {
-    public AreaofTriangle() {
-    }
 
     public static void main(String[] args) {
         float a = 0.0F;
@@ -12,4 +10,3 @@ public class AreaofTriangle {
         float w = in.nextFloat();
         System.out.println(l * w);
     }
-}

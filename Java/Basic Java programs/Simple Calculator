@@ -2,8 +2,6 @@
 import java.util.Scanner;
 
 public class Calculator {
-    public Calculator() {
-    }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -16,7 +14,6 @@ public class Calculator {
                 if (op == 'x' || op == 'X') {
                     return;
                 }
-
                 System.out.println("Invalid operation!!");
             } else {
                 System.out.print("Enter two numbers: ");
@@ -42,7 +39,6 @@ public class Calculator {
                     ans = num1 % num2;
                 }
             }
-
             System.out.println(ans);
         }
     }

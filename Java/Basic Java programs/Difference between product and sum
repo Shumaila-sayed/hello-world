@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class ProductandSum {
-    public ProductandSum() {
-    }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -17,7 +15,6 @@ public class ProductandSum {
             val /= 10;
             product *= rem;
         }
-
         System.out.println(product - sum);
     }
 }

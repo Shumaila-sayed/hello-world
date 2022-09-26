@@ -1,6 +1,5 @@
 public class Reverse {
-    public Reverse() {
-    }
+
     public static void main(String[] args) {
         int num = 765342;
         int ans;

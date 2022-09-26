@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Currency {
-    public Currency() {
-    }
-
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter currency in rupees : ");

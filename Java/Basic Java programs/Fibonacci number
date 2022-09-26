@@ -1,10 +1,7 @@
-
 import java.util.Scanner;
 
 public class fibo {
-    public fibo() {
-    }
-
+  
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -16,7 +13,6 @@ public class fibo {
             b += a;
             a = temp;
         }
-
         System.out.println(b);
     }
 }

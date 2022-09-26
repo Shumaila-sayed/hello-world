@@ -1,9 +1,9 @@
+ines (16 sloc)  412 Bytes
+
 import java.util.Scanner;
 
 public class AreaofCircle {
-    public AreaofCircle() {
-    }
-
+   
     public static void main(String[] args) {
         float a = 0.0F;
         float p = 3.141592F;
@@ -13,7 +13,6 @@ public class AreaofCircle {
         if (r > 0.0F) {
             a = p * r * r;
         }
-
         System.out.println(a);
     }
 }
