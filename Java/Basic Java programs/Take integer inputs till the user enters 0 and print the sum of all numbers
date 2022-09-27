@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class SumofAll {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter integers (enter 0 to dismiss): ");
+        int num = 0;
+        int sum = 0;
+        while ((num  = in.nextInt())!= 0){
+            sum = num+ sum;
+            }
+            System.out.print("Sum of all the number is: " + sum);
+        }
+}

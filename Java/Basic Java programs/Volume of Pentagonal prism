@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class VolofPentaPrism {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter Apothem length of the pentagonal prism: ");
+        int a = in.nextInt();
+        System.out.print("Enter base: ");
+        int b = in.nextInt();
+        System.out.print("Enter height: ");
+        int h = in.nextInt();
+
+        float v = (5/2f)*a*b *h;
+        System.out.println("Volume of pentagonal prism is: "+ v);
+    }
+}

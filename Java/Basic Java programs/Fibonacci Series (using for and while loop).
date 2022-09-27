@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Fibo {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int f = 0;
+        int s = 1;
+        int count = 1;
+        System.out.print("Fibonacci Series till " + n + " terms: ");
+
+//        for (int i = 1; i <= n; i++) {
+//            System.out.print(f + ",");
+//            int temp = s;
+//            s = f+s;
+//            f = temp;
+//       }
+        while(count <= n){
+            System.out.print(f+",");
+            int temp = s;
+            s = f+s;
+            f = temp;
+            count++;
+        }
+        }
+    }

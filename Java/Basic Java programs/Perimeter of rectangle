@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class PeriofRectangle {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter length: ");
+        int l = in.nextInt();
+        System.out.print("Enter width: ");
+        int w = in.nextInt();
+
+        int p = 2*(l+w);
+        System.out.println("perimeter of rectangle is: " + p);
+    }
+}

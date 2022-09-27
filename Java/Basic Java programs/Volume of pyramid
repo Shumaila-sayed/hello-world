@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class VolofPyramid {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter base length: ");
+        int l = in.nextInt();
+        System.out.print("Enter base width: ");
+        int w = in.nextInt();
+        System.out.print("Enter height: ");
+        int h = in.nextInt();
+
+        float v = (l*w*h)/3f;
+        System.out.println("volume of pyramid is: "+ v);
+    }
+}

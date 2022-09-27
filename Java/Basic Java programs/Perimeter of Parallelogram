@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class PeriofParallelogram {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter side in cm : ");
+        int s = in.nextInt();
+        System.out.print("Enter base in cm : ");
+        int b = in.nextInt();
+
+        int p = 2*(s+b);
+        System.out.println("Perimeter of parallelogram is " + p);
+    }
+}
