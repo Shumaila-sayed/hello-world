@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class TotalSurAreaofCube {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter side of cube in cm: ");
+        int a = in.nextInt();
+        int t = 6*(a*a);
+
+        System.out.println("Total surface area of a cube is "+ t);
+    }
+}
