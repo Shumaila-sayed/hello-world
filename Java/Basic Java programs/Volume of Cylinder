@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class VolofCylinder {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter radius: ");
+        int r = in.nextInt();
+        System.out.print("Enter height: ");
+        int h = in.nextInt();
+         float pie = 3.14f;
+
+         float v = pie*r*r*h;
+        System.out.println("Volume of cylinder is: "+v);
+    }
+}
