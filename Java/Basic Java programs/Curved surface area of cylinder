@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class CurvedsurAreaCylinder {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter radius: ");
+        int r = in.nextInt();
+        System.out.print("Enter height: ");
+        int h = in.nextInt();
+        float pie = 3.14f;
+
+        float a = 2*pie*r*h;
+
+        System.out.println("Curved surface area of cylinder is "+ a);
+    }
+}
