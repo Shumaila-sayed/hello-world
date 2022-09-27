@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class PeriofSquare {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter side in cm : ");
+        int a = in.nextInt();
+
+        int p = 4*a;
+        System.out.println("Perimeter of Square is: " + p);
+    }
+}
