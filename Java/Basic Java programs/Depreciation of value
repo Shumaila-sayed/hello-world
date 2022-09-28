@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Depreciation {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter assets cost: ");
+        int a = in.nextInt();
+        System.out.print("Enter salvage value: ");
+        int s = in.nextInt();
+        System.out.print("Enter useful life: ");
+        int u = in.nextInt();
+
+        int dep = (a-s)/u;
+        System.out.println("Depreciation of asset value " + a+" is "+dep);
+    }
+}
