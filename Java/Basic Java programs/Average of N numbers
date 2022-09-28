@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Average {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter integers (Type 0 to dismiss): ");
+        int n = 0;
+        int sum=0;
+        int count = 0;
+        while ((n = in.nextInt()) != 0){
+            sum = n + sum;
+            count++;
+        }
+        int ans = (sum/count);
+        System.out.println("Average of the given numbers is "+ ans +".");
+    }
+}
