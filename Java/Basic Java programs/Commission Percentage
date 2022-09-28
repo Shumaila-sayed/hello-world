@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Commission {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter sales: ");
+        float s = in.nextFloat();
+        System.out.print("Enter commission amount: ");
+        int c = in.nextInt();
+
+        float comper = (c/s*100f);
+        System.out.println("Percentage of commision is " + comper + "%");
+    }
+}

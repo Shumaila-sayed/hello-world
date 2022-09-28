@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Discount {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter original price: ");
+        int op = in.nextInt();
+        System.out.print("Enter percentage of discount: ");
+        float dis = in.nextFloat();
+
+        float ans = op-(op*dis/100f);
+        System.out.println("The discounted price is "+ans );
+    }
+}
