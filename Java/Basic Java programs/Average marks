@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class AverageMarks {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter your marks (-1 to dismiss): ");
+        int marks = 1;
+        int sum = 0;
+        int count = 0;
+
+        while((marks= in.nextInt()) != -1){
+            sum = marks + sum;
+            count ++;
+        }
+        int ans = (sum/count);
+        System.out.println("Average marks is "+ans);
+    }
+}
