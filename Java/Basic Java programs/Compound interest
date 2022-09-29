@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class CompoundInt {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Initial amount: ");
+        int p = in.nextInt();
+        System.out.print("Rate of interest: ");
+        float r = in.nextFloat();
+        System.out.print("time the amount is invested: ");
+        int t = in.nextInt();
+
+       double ci = p* (Math.pow((1 + r/100), t));
+        System.out.println("compound interest is "+ ci);
+    }
+}
