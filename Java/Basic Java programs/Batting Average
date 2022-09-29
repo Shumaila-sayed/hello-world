@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class BattingAverage {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Runs Scored: ");
+        float r = in.nextFloat();
+        System.out.print("Times Out: ");
+        int t = in.nextInt();
+
+        float avg = r/t;
+
+        System.out.println("The batting average is " + avg);
+    }
+}

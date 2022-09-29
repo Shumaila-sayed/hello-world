@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class nPrnCr {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("total number of elements: ");
+        int n = in.nextInt();
+        System.out.print("the number of elements that have to be arranged: ");
+        int r = in.nextInt();
+         long nfac = 1;
+
+        for (int i = 1; i <=n ; i++) {    // for finding n !
+            nfac *=i;
+        }
+
+        int a = n-r;
+        float afac = 1;
+        for (int i = 1; i <=a ; i++) { // for finding (n-r)!
+            afac *= i;
+        }
+      float ans = nfac/afac;
+
+        int rfac = 1;
+        for (int i = 1; i <= r ; i++) {   //  for finding r!
+            rfac *= i;
+
+        }
+        float ans2 = nfac/(rfac*afac);
+
+        System.out.println("Permutation = "+ans);
+        System.out.println("Combination = "+ ans2);
+
+    }
+}
