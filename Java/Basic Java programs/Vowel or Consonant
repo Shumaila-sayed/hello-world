@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class VowelorConsonant {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter a character: ");
+        String ch = in.next();
+
+        if(ch .equals("a") || ch .equals("e") || ch .equals("i") || ch .equals("o") || ch .equals("u") ||
+                ch .equals("A") || ch .equals("E") || ch .equals("I") || ch .equals("O") || ch .equals("U") ){
+            System.out.println(ch+ " is a vowel.");
+        }else
+            System.out.println(ch+ " is a consonant");
+    }
+}
