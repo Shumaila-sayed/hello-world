@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+
+
+//Write a function that returns all prime numbers between two given numbers.
+
 public class PrimeinRange {
     public static void main(String[] args) {
         prime();
